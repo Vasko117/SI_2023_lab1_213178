@@ -1,0 +1,36 @@
+commit 52887b2fa471e2c6695cab4cda617717d389358b (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Vasil Strezov <vsilt2002@gmail.com>
+Date:   Fri Mar 17 19:55:58 2023 +0100
+
+     Fix method sumEvenNumbers.
+
+commit e6daabb7a54f478c929361785b2539be0e3dc94b
+Merge: a635f87 fc9c1c7
+Author: Vasil Strezov <vsilt2002@gmail.com>
+Date:   Fri Mar 17 21:09:18 2023 +0100
+
+    Merge branch 'bug2'
+
+commit fc9c1c71724dc0dbcb733062121f2066a6951d18 (origin/bug2, bug2)
+Author: Vasil Strezov <vsilt2002@gmail.com>
+Date:   Fri Mar 17 19:53:47 2023 +0100
+
+    а Fix wrong condition in filterOddNumbers.
+
+commit a635f8706aa9c3677869cd6e587a38dcb1d8e8b4 (origin/bug1, bug1)
+Author: Vasil Strezov <vsilt2002@gmail.com>
+Date:   Fri Mar 17 19:52:15 2023 +0100
+
+    Fix wrong loop for reading.
+
+commit a6b11fbe9804397eb4a9fb11e3544046b21c25ed
+Author: Vasil Strezov <vsilt2002@gmail.com>
+Date:   Fri Mar 17 19:40:27 2023 +0100
+
+    Add java class.
+
+commit 8fa372f128b2f95e1938f19ad53d23bdda6d5cc3
+Author: Vasil Strezov <vsilt2002@gmail.com>
+Date:   Fri Mar 17 19:33:56 2023 +0100
+
+    Initial commit

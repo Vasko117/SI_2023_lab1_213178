@@ -1,0 +1,30 @@
+git init-lokal repo
+git remote add origin https://github.com/Vasko117/SI_2023_lab1_213178.git-povrzuvanje so repozitorium.
+git config --global user.email "vsilt2002@gmail.com"-da se povrzam so github
+git commit -m "Initial commit"-prv commit
+git push -u origin master-da go stavime vo local repoto
+git commit -m "Add java class."-nov kommit
+git push -u origin master
+git branch bug1
+git branch bug2
+git branch bug3-dodavanje granki
+git checkout bug1
+git add --all
+git commit -m "Fix wrong loop for reading."
+git checkout bug2
+git add --all
+git commit -m "Fix wrong condition in filterOddNumbers."
+git checkout bug3
+git add --all
+git commit -m "Fix method sumEvenNumbers."
+git push --all origin-site granki na remote repoto
+git checkout master
+git merge bug1-spojuva grankata
+git push -u origin master
+git merge bug2-spojuva grankata
+git push -u origin master
+git checkout bug3
+git rebase master
+git checkout master
+git merge bug3
+git push --force --all origin
